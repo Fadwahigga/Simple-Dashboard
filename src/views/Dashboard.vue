@@ -1,9 +1,9 @@
 <template>
-    <div class="w-screen h-screen flex">
+    <div class="w-screen h-screen flex text-white">
         <!-- Sidebar -->
         <div class="w-52 h-screen bg-gray-200">
             <div class="h-14 bg-gray-700">Header sidebar</div>
-            <div class="h-14 bg-gray-700">minu</div>
+            <div class="h-14 bg-gray-900">minu</div>
         </div>
         <!-- main -->
         <div class="w-full h-full bg-gray-400"> main</div>
