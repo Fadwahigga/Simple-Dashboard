@@ -1,7 +1,7 @@
 <template>
     <div class="w-screen h-screen flex text-white ">
         <!-- Sidebar -->
-        <div class="w-52 h-screen bg-gray-900">
+        <div class="w-80 h-screen bg-gray-900">
             <div class="h-14 bg-gray-900">
                 <h1 class="font-bold text-l p-5">Admin Dashboard</h1>
             </div>
@@ -51,7 +51,7 @@
         </div>
         <!-- main -->
         <div class="w-full h-full bg-gray-900 text-black text-center">
-            <div class="h-14 bg-gray-200 ">Body Section</div>
+            <div class="h-14 bg-gray-200 p-5">Body Section</div>
             <div class="h-full bg-white"></div>
         </div>
     </div>
