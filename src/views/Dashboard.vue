@@ -6,7 +6,7 @@
                 <h1 class="font-bold text-xl mx-1">Admin Dashboard</h1>
             </div>
             <div class="h-full bg-gray-700 flex flex-col p-4"> <router-link to="/home"
-                    class="inline-flex relative items-center py-[10px] px-[10px] w-full text-sm font-medium rounded-md border-gray-200 hover:bg-gray-200 hover:text-gray-800  transition duration-400 ease-in-out">
+                    class="inline-flex relative items-center p-2 w-full text-sm font-medium rounded-md border-gray-200 hover:bg-gray-200 hover:text-gray-800  transition duration-400 ease-in-out">
                     <svg aria-hidden="true" class="mr-2 w-[25px] h-[25px] fill-current" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
