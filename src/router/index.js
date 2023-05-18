@@ -1,25 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
- 
-import dashboard from '../pages/master/dashboard'
-
-import home from '../pages/home'
-import profile from '../pages/profile'
-
   const routes = [
     {
       name: 'Dashboard',
       path: '/',
-      component: dashboard,
+      component: () => import("@/views/Dashboard.vue"),
       children: [
          {
           name: 'home',
           path: '/home',
-          component:home
+          component: () => import("@/views/Home.vue"),
         },
         {
           name: 'profile',
           path: '/profile',
-          component:profile
+          component: () => import("@/views/Profile.vue"),
         }
       ]
     },
