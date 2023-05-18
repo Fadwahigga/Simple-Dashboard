@@ -50,8 +50,8 @@
             </div>
         </div>
         <!-- main -->
-        <div class="w-full h-full bg-gray-900 text-black">
-            <div class="h-14 bg-gray-200 ">Header sidebar</div>
+        <div class="w-full h-full bg-gray-900 text-black text-center">
+            <div class="h-14 bg-gray-200 ">Body Section</div>
             <div class="h-full bg-white"></div>
         </div>
     </div>
