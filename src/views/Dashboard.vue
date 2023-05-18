@@ -5,7 +5,7 @@
             <div class="h-14 bg-gray-900">
                 <h1 class="font-bold text-l p-5">Admin Dashboard</h1>
             </div>
-            <div class="h-full bg-gray-700 flex flex-col gap-6 p-4">
+            <div class="h-full bg-gray-600 flex flex-col gap-6 p-4">
                 <router-link to="/home"
                     class="inline-flex relative items-center p-2 w-full text-sm font-medium rounded-md border-gray-200 hover:bg-gray-200 hover:text-gray-800  transition duration-400 ease-in-out">
                     <svg aria-hidden="true" class="mr-2 w-6 h-6 fill-current" fill="currentColor" viewBox="0 0 20 20"
@@ -50,8 +50,8 @@
             </div>
         </div>
         <!-- main -->
-        <div class="w-full h-full bg-gray-500">
-            <div class="h-14 bg-gray-900">Header sidebar</div>
+        <div class="w-full h-full bg-gray-900 text-black">
+            <div class="h-14 bg-gray-200 ">Header sidebar</div>
             <div class="h-full bg-white"></div>
         </div>
     </div>
